@@ -1,0 +1,19 @@
+.amg{
+    background-color: rgb(199, 54, 78);
+    font-family: 'Verdana','DejaVu Sans','sans-serif';
+}
+
+#first {
+    color: rgb(0, 0, 124);
+    font-size: 36px;
+}
+
+.amg#second{
+    font-size:24px;
+}
+
+#third{
+    background-color: rgb(119, 236, 125);
+    font-size: 24px;
+    font-weight: bold;
+}

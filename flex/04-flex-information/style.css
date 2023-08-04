@@ -1,5 +1,9 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
 }
 
 img {
@@ -24,3 +28,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+.title {
+  text-align: center;
+}
+
+.content {
+  display: flex; 
+  justify-content: center;
+  gap: 52px; 
+}
+
+.first-image, .second-image, .third-image, .fourth-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: auto;
+  text-align: center;
+  max-width: 200px;
+}
+
+/* Lines from 44-48 are useless, are uneunnecessary. Because the layout
+(image on top of the text) is already ,well, ready. We don't need to apply flexbox
+in order to lay them out.
+*/

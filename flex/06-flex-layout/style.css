@@ -40,23 +40,25 @@ body {
   display: flex;
   flex-direction: column ;
   justify-content: space-between;
-  align-items: center;
 }
 
 .header {
-  flex-basis : 100% ;
   display: flex;
-  justify-content: space-between;
+  /* flex-direction: row; */
 }
 
-.left-links {
+.header .left-links {
   display: flex;
+  justify-content: flex-start;
   flex: auto;
+  gap: 8px;
 }
 
-.right-links {
+.header .right-links {
   display: flex;
+  justify-content: flex-end;
   flex: auto;
+  gap: 8px;
 }
 
 

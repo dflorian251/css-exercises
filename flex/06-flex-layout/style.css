@@ -26,6 +26,8 @@ input {
   margin-bottom: 16px;
 }
 
+/*  SOLUTION */
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -44,34 +46,36 @@ body {
 
 .header {
   display: flex;
-  /* flex-direction: row; */
+  padding: 13px;
 }
-
-.header .left-links {
-  display: flex;
-  justify-content: flex-start;
-  flex: auto;
-  gap: 8px;
-}
-
-.header .right-links {
-  display: flex;
-  justify-content: flex-end;
-  flex: auto;
-  gap: 8px;
-}
-
-
 
 .content {
-  flex: 2 1 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
+button {
+  padding :5px 15px;
+}
+
 .footer {
-  flex: auto;
   display: flex;
+  padding: 13px;
+  background-color: #eeeeee;
+}
+
+.left-links {
+  display: flex;
+  justify-content: flex-start;
+  flex: auto;
+  gap :8px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: flex-end;
+  flex: auto;
+  gap :8px;
 }
